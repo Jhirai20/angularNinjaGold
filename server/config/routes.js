@@ -1,5 +1,5 @@
 var users = require("../controllers/users.js");
-
+//practiced making api for web app
 module.exports = function(app){
 
     app.get("/users", users.users)
